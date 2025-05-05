@@ -1,0 +1,21 @@
+GET /api/people 
+POST  /api/people
+GET  /api/people/<lname>
+PUT  /api/people/<lname>
+DELETE  /api/people/<lname>
+
+
+seu_projeto/
+├── app.py                # Arquivo principal Flask (ou run.py)
+├── routes/               # Suas rotas (endpoints Flask)
+│   └── post_routes.py
+├── services/             # Regras de negócio e algoritmos
+│   └── post_algoritmos.py  # Seus algoritmos de busca, validação, etc
+├── models/               # Definições do banco (se usar ORM)
+│   └── post_model.py
+├── database/             # Conexão com o banco
+│   └── conexao.py
+├── static/               # Arquivos estáticos (CSS, JS, imagens)
+├── templates/            # HTML (se for usar Flask com renderização)
+├── .env                  # Variáveis de ambiente (senha do banco etc)
+└── requirements.txt      # Pacotes instalados
