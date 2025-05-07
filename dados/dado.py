@@ -1,13 +1,16 @@
 lista_post =[
       {     'id':1,
-            'Post':'Primeiro post '
+            'titulo':'post',
+            'descricao':'Primeiro post '
       },
       {
             'id':2,
-            'Post':'Teste de post'
+            'titulo':'Teste de post',
+            'descricao':'Segundo teste'
       },
       {
             'id':3,
-            'Post':'Finalizando teste'
+            'titulo':'Finalizando teste',
+            'descricao':'final'
       }
 ]
